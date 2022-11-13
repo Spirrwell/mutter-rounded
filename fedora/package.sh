@@ -10,6 +10,7 @@ declare -A patches
 patches=(
   [35]="rounded_corners.41.3.patch"
   [36]="rounded_corners.42.2.patch"
+  [37]="rounded_corners.43.0.patch"
 )
 distro_ver=$(. /etc/os-release && echo $VERSION_ID)
 rounded_corners_patch=${patches[${distro_ver}]}
